@@ -1,0 +1,12 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<main>
+  <section>
+    <h2>お問い合わせ</h2>
+    <p>お問い合わせいただき、ありがとうございます。下記のフォームに必要事項をご記入の上、お問い合わせ内容を送信してください。迅速にご回答させていただきます。 </p>
+    <main>
+      <section>
+        <h2>お問い合わせ</h2>
+        <form method="post" action="{% url 'contact' %}"> {% csrf_token %} {{ form.as_p }} <button type="submit">送信</button> </form>
+      </section>
+    </main>
+    {% endblock %}

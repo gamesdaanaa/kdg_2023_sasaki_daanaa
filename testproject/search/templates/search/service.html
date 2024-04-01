@@ -1,0 +1,119 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<main>
+  <section>
+    <h2>Service</h2>
+    <p>ブロック全体を囲んでいる「list-container」タグを入れ忘れないで下さい。これがないとレイアウトが崩れます。<br> 出現してくるアニメーションは他にも色々ご用意しております。テンプレート内の<a href="sample_inview.html">sample_inview.htmlをお読み下さい。</a></p>
+    <div class="list-container">
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p>
+      </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p>
+      </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p>
+      </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p> <span class="new">NEW</span> </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p>
+      </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p>
+      </div>
+    </div>
+    <!--/.list-container-->
+  </section>
+  <section class="bg1">
+    <h2>Service</h2>
+    <div class="list-container">
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p> <span class="new">NEW</span> </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p>
+      </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p>
+      </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p> <span class="new">NEW</span> </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p>
+      </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sample1.jpg' %}" alt=""></figure>
+        <div class="text">
+          <h4>Sample Title</h4>
+          <p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
+        </div>
+        <p class="btn"><a href="{% url 'service2' %}">詳しくみる</a></p>
+      </div>
+    </div>
+    <!--/.list-container-->
+  </section>
+</main>
+<footer>
+  <ul id="footermenu">
+    <li><a href="#">フッターメニュー</a></li>
+    <li><a href="#">フッターメニュー</a></li>
+    <li><a href="#">フッターメニュー</a></li>
+    <li><a href="#">フッターメニュー</a></li>
+    <li><a href="#">フッターメニュー</a></li>
+  </ul>
+  <div class="copy"> <small>Copyright&copy; <a href="{% url 'index' %}">SAMPLE COMPANY</a> All Rights Reserved.</small> <span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span> </div>
+</footer> {% endblock %}

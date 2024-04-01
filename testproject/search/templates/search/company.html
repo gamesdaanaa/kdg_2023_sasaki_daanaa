@@ -1,0 +1,57 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<main>
+  <section>
+    <h2>会社概要</h2>
+    <div id="map" style="position: fixed o !important;">
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7iFYNmscj3wz5_gqsey_JOUIpqqcBO3Y&language=ja&region=JP&callback=initMap" style="width:500px; height: 500px;">
+      </script>
+    </div>
+    <table class="ta1">
+      <caption></caption>
+      <th>所在地</th>
+      <td>バンタンクリエイターアカデミー校舎</td>
+    </table>
+  </section>
+  <section class="bg1">
+    <div class="list-container">
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sukurinsyoto1.png' %}" alt=""></figure>
+        <div class="text">
+          <h2>チャット機能</h2>
+          <p>ユーザー間のコミュニケーションをサポートするための機能をよういしている。</p>
+        </div> <span class="new" style="color: #ffffff;">NEW</span> </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sukurinsyoto1.png' %}" alt=""></figure>
+        <div class="text">
+          <h2>最新ニュース</h2>
+          <p>最新のニュースを設けており、ユーザーは最新の出来事や情報を迅速に入手できるようにしている。</p>
+        </div>
+      </div>
+      <div class="list blur">
+        <figure><img src="{% static 'search/images/sukurinsyoto1.png' %}" alt=""></figure>
+        <div class="text">
+          <h2>検索機能</h2>
+          <p>ユーザーはサイト内のコンテンツを素早く検索し、関連する情報にアクセスできるようにしている。</p>
+          <p><video src="images/mainimg_simple.mp4" autoplay loop muted playsinline></p>
+</section>
+
+</main>
+
+<footer>
+
+<ul id="footermenu">
+<li><a href="#">フッターメニュー</a></li>
+<li><a href="#">フッターメニュー</a></li>
+<li><a href="#">フッターメニュー</a></li>
+<li><a href="#">フッターメニュー</a></li>
+<li><a href="#">フッターメニュー</a></li>
+</ul>
+
+<div class="copy">
+<small>Copyright&copy; <a href="index.html">SAMPLE COMPANY</a> All Rights Reserved.</small>
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</div>
+
+</footer>
+
+{% endblock %}
